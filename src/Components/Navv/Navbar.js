@@ -14,7 +14,7 @@ const Navbar = () => {
           </span>
         </div>
         <div className="relative  group">
-          <Link href="/">about</Link>
+          <Link href="/about">about</Link>
           <span className="h-[2px] rounded-full transition-all duration-300  w-0 inline-block bg-black group-hover:w-full absolute left-0 bottom-[-4px]">
             &nbsp;
           </span>
@@ -34,23 +34,48 @@ const Navbar = () => {
       </nav>
 
       <nav className="flex gap-6">
-        <motion.a href="./" whileHover={{y:4}} whileTap={{scale:0.8}} className="text-3xl text-[#007DC3]">
+        <motion.a
+          href="./"
+          whileHover={{ y: 4 }}
+          whileTap={{ scale: 0.8 }}
+          className="text-3xl text-[#007DC3]"
+        >
           {" "}
           <BsFacebook />
         </motion.a>
-        <motion.a href="./" whileHover={{y:4}} whileTap={{scale:0.8}} className="text-3xl text-[#2A2F35]">
+        <motion.a
+          href="./"
+          whileHover={{ y: 4 }}
+          whileTap={{ scale: 0.8 }}
+          className="text-3xl text-[#2A2F35]"
+        >
           {" "}
           <BsGithub />
         </motion.a>
-        <motion.a href="./" whileHover={{y:4}} whileTap={{scale:0.8}} className="text-3xl text-[#FF0000]">
+        <motion.a
+          href="./"
+          whileHover={{ y: 4 }}
+          whileTap={{ scale: 0.8 }}
+          className="text-3xl text-[#FF0000]"
+        >
           {" "}
           <AiFillYoutube />
         </motion.a>
-        <motion.a href="./" whileHover={{y:4}} whileTap={{scale:0.8}} className="text-3xl text-[#0F66B4]">
+        <motion.a
+          href="./"
+          whileHover={{ y: 4 }}
+          whileTap={{ scale: 0.8 }}
+          className="text-3xl text-[#0F66B4]"
+        >
           {" "}
           <AiFillLinkedin />
         </motion.a>
-        <motion.a href="./"  whileHover={{y:4}} whileTap={{scale:0.8}} className="text-3xl text-[#1C9CEA]">
+        <motion.a
+          href="./"
+          whileHover={{ y: 4 }}
+          whileTap={{ scale: 0.8 }}
+          className="text-3xl text-[#1C9CEA]"
+        >
           {" "}
           <BsTwitter />
         </motion.a>

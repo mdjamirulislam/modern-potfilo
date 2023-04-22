@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import images from "../../../public/image/mak.webp"
-import Image from "next/image";
+import Image from "next/image"
+
 import { BiCartDownload } from 'react-icons/bi';
+import Link from "next/link";
 const Layout = () => {
   const quote = {
     initial: {
@@ -42,10 +44,22 @@ const Layout = () => {
   };
 
   return (
-    <div className="w-full h-screen flex justify-between">
+    <div className="w-full overflow-hidden h-screen flex justify-between">
       {/* left image */}
-      <div className="w-[50%] py-0 my-0">
 
+    
+      <div className="w-[50%] py-0 my-0">
+      <div className="fixed left-9 bottom-14">
+      <Link href="https://www.facebook.com">
+        <motion.h1 className="w-20 font-semibold h-20 text-white flex justify-center rounded-full bg-[#1b1b1b]  items-center  hover:bg-inherit hover:border-black hover:text-black hover:border hover:cursor-pointer"
+        whileHover={{ backgroundColor:["#121212", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#121212"],
+        transition:{duration:1, repeat:Infinity}
+  }}
+        
+        >Hire Me</motion.h1>
+        </Link>
+        
+        </div>
 
            <div className="w-[90%] ml-10">
            <Image src={images} alt="hellwo" className="w-[100%] " />
@@ -89,6 +103,7 @@ const Layout = () => {
           </div>
         </div>
       </div>
+    
     </div>
   );
 };
