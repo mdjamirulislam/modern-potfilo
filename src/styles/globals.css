@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 :root {
   --max-width: 1100px;
@@ -92,8 +92,9 @@ body {
 }
 
 body {
-  font-family: 'Montserrat Subrayada', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
    color:black;
+   
 }
 .fon{
   font-family: 'Montserrat Subrayada', sans-serif;

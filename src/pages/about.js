@@ -3,10 +3,11 @@ import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import photo from "../../public/image/myphoto.png";
+import AboutEducation from "../Components/AboutEducation";
+import Experience from "../Components/Experience/Experience";
 import Animationtext from "../Components/Healper/Animationtext/Animationtext";
 import Spring from "../Components/Healper/Spring/Spring";
 import Skill from "../Components/Skill/Skill";
-import Experience from "../Components/Experience/Experience";
 
 const ptext = {
   initial: {
@@ -123,13 +124,15 @@ const About = () => {
 
         <div className=" ">
           <Skill />
-        </div> 
+        </div>
         {/* Experience */}
 
-           <div>
-            <Experience/>
-
-           </div>
+        <div>
+          <Experience />
+        </div>
+        <div>
+          <AboutEducation />
+        </div>
       </main>
     </>
   );
