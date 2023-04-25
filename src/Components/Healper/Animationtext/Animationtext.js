@@ -27,17 +27,17 @@ const two = {
     },
   },
 };
-const Animationtext = ({ text }) => {
+const Animationtext = ({ text ,className="" }) => {
   return (
     <>
       <div className="w-full px-7  mx-auto">
         <motion.div
-          className="flex justify-center   flex-col  leading-tight  py-4  items-center text-center font-bold text-8xl text-[#1b1b1b]"
+          className={`flex justify-center   flex-col  leading-tight  py-4  items-center text-center font-bold text-8xl text-[#1b1b1b] ${className}`}
           variants={one}
           initial="initial"
           animate="animate"
         >
-          <motion.h1 className="w-2/3" variants={two}>
+          <motion.h1 className={`w-2/3 ${className}`} variants={two}>
             {text}
           </motion.h1>
         </motion.div>
