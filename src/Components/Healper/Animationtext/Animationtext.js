@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import Image from "next/image";
-import React from "react";
 
 const one = {
   initial: {
@@ -10,7 +8,7 @@ const one = {
     opacity: 1,
     transition: {
       delay: 0.5,
-      staggerchildren: 0.08,
+      staggerChildren: 0.09,
     },
   },
 };
@@ -24,26 +22,25 @@ const two = {
     y: 0,
     transition: {
       duration: 1,
+      
     },
   },
 };
-const Animationtext = ({ text ,className="" }) => {
+const Animationtext = ({ text, className = "" }) => {
   return (
     <>
       <div className="w-full px-7  mx-auto">
         <motion.div
-          className={`flex justify-center   flex-col  leading-tight  py-4  items-center text-center font-bold text-8xl text-[#1b1b1b] ${className}`}
+          className={`flex justify-center w-2/3 mx-auto    flex-col  leading-tight  py-4  items-center text-center font-bold text-8xl text-[#1b1b1b] ${className}`}
           variants={one}
           initial="initial"
           animate="animate"
         >
-          <motion.h1 className={`w-2/3 ${className}`} variants={two}>
+          <motion.h1 className={` ${className}`} variants={two}>
             {text}
           </motion.h1>
         </motion.div>
         {/* next slider full description */}
-
-       
       </div>
     </>
   );

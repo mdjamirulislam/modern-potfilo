@@ -26,7 +26,7 @@ const Navbar = () => {
           </span>
         </div>
         <div className="relative  group">
-          <Link href="/">Articles</Link>
+          <Link href="./article">Articles</Link>
           <span className="h-[2px] rounded-full transition-all duration-300  w-0 inline-block bg-black group-hover:w-full absolute left-0 bottom-[-4px]">
             &nbsp;
           </span>
