@@ -9,7 +9,7 @@ const Darkmodebtn = () => {
     setmounted(true);
   }, []);
 
-  const randerthemechaner = () => {
+  const changer = () => {
     const currenttheme = theme === "system" ? systemtheme : theme;
     if (!mounted) return null;
     if (currenttheme === "dark") {
@@ -36,7 +36,7 @@ const Darkmodebtn = () => {
       );
     }
   };
-  return <div>{randerthemechaner()}</div>;
+  return <div>{changer()}</div>;
 };
 
 export default Darkmodebtn;
