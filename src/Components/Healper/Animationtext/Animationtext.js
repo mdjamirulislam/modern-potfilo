@@ -22,7 +22,6 @@ const two = {
     y: 0,
     transition: {
       duration: 1,
-      
     },
   },
 };
@@ -31,7 +30,7 @@ const Animationtext = ({ text, className = "" }) => {
     <>
       <div className="w-full px-7  mx-auto">
         <motion.div
-          className={`flex justify-center w-2/3 mx-auto    flex-col  leading-tight  py-4  items-center text-center font-bold text-8xl text-[#1b1b1b] ${className}`}
+          className={`flex justify-center mx-auto dark:text-light    flex-col  leading-tight  py-4  items-center text-center font-bold text-8xl text-[#1b1b1b]  dark:bg-red-500 ${className}`}
           variants={one}
           initial="initial"
           animate="animate"

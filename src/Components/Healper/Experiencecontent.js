@@ -6,14 +6,14 @@ import React from "react";
 const Experiencecontent = ({ heading, link, slink, ptag }) => {
   return (
     <motion.div
-      className="w-full mx-auto py-5"
+      className="w-full dark:text-light mx-auto py-5"
       initial={{ y: 0 }}
       whileInView={{ y: -70, transition:{duration:0.5,type:"spring"} }}
       
     >
       <h1 className="text-2xl font-bold flex gap-5">
         {heading}
-        <a href="./" className="text-[#B63E96]">
+        <a href="./" className="text-[#B63E96] dark:text-primaryDark">
           {link}
         </a>
       </h1>

@@ -11,7 +11,7 @@ const Experience = () => {
 
   return (
     <div className="w-[40%] mx-auto  py-20">
-      <div className="flex mb-16 font-bold justify-center items-center">
+      <div className="flex mb-16 font-bold justify-center dark:text-light items-center">
         <h1 className="text-8xl">Exprience</h1>
       </div>
       {/* experiecne conponent for wrapper */}
@@ -22,7 +22,7 @@ const Experience = () => {
 
         <motion.div
           style={{ scale: scrollYProgress }}
-          className="absolute left-[-5rem] origin-top  top-0  h-[95%] w-[4px] bg-black"
+          className="absolute left-[-5rem] origin-top  top-0  h-[95%] w-[4px] bg-dark dark:bg-light"
         />
 
         <Experiencecontent

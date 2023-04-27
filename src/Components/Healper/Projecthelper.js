@@ -13,9 +13,9 @@ const Projecthelper = ({
   link,
 }) => {
   return (
-    <div className="w-[100%] h-[100%] rounded-2xl overflow-hidden pb-4 pr-4 bg-[#1b1b1b]">
+    <div className="w-[100%] h-[100%] rounded-2xl overflow-hidden pb-3 pr-3 bg-[#1b1b1b] dark:bg-light">
       <div
-        className={`w-full flex justify-between gap-3 bg-white border-2 border-gray-300 rounded-md p-10 ${className}`}
+        className={`w-full flex justify-between gap-3 bg-light border-2 dark:bg-dark dark:border-light border-dark rounded-2xl p-10 ${className}`}
       >
         <div className="w-[50%]">
           <Framerone
@@ -39,12 +39,12 @@ const Projecthelper = ({
               <Image
                 src={icon}
                 alt="net load github icon"
-                className="w-12"
+                className="w-12 dark:bg-light dark:border-dark   dark:rounded-full "
               />{" "}
             </Link>
             <Link
               href="./"
-              className="bg-black text-white rounded-xl hover:underline border px-4 py-2 text-xl font-semibold capitalize"
+              className="bg-dark text-light rounded-xl hover:underline border px-4 py-2 text-xl font-semibold capitalize"
             >
               {link}
             </Link>

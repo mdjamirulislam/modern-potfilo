@@ -9,18 +9,18 @@ const AboutEducation = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="w-[40%] flex flex-col justify-center items-ceter mx-auto">
+    <div className="w-[40%] flex flex-col dark:text-light justify-center items-ceter mx-auto">
       <div className="flex  mb-24 justify-center items-center font-bold">
         <h1 className="text-[7rem]">Eduaction</h1>
       </div>
 
-      <div ref={ref} className=" pt-14 relative">
+      <div ref={ref} className=" pt-14 relative dark:text-light">
         <div className="absolute left-[-8.3rem] z-10   top-0">
           <Roundedtwo />
         </div>
         <motion.div
           style={{ scale: scrollYProgress }}
-          className="absolute left-[-5rem] origin-top  top-0  h-[110%] w-[4px] bg-black"
+          className="absolute left-[-5rem] origin-top  top-0  h-[110%] w-[4px] bg-dark dark:bg-light"
         />
         <AboutEducationcontent
           heading="Bachelor Of Science In Computer Science"

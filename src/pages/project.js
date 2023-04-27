@@ -15,7 +15,7 @@ const Project = () => {
       </Head>
 
       <main>
-        <div className="w-full py-10">
+        <div className="w-full py-10 dark:text-light">
           <div className="">
             <Animationtext
               text=" Imagination Trumps Knowledge! "
@@ -23,7 +23,7 @@ const Project = () => {
             />
           </div>
           <div className="w-[90%] mx-auto ">
-            <div className="py-10">
+            <div className="py-10 dark:text-light">
               <Projecthelper
                 image={projectone}
                 heading="Featured Project"

@@ -32,23 +32,23 @@ const About = () => {
           <Animationtext text="Passion Fuels  Purpose! " />
         </div>
 
-        <div className=" flex justify-between gap-5">
+        <div className=" flex justify-between gap-5 dark:text-light ">
           {/* bio graphy */}
           <motion.div
-            className="flex flex-col font-semibold text-[1.1rem] text-gray-600 justify-start items-start w-[45%] py-3 "
+            className="flex flex-col font-semibold text-[1.1rem] dark:text-light text-textlight justify-start items-start w-[45%] py-3 "
             variants={ptext}
             initial="initial"
             animate="animate"
           >
-            <h1 className="text-2xl py-3 font-bold text-gray-500 uppercase">
+            <h1 className="text-2xl py-3 font-bold dark:text-light text-textlight uppercase">
               BioGraphy
             </h1>
             <p className="mb-2">
               Hi, I m{" "}
-              <span className="text-[#1b1b1b] font-bold text-lg hover:underline hover:cursor-pointer ">
+              <span className="text-[#1b1b1b] pr-2 dark:text-primary font-bold text-lg hover:underline hover:cursor-pointer ">
                 md jamirul
               </span>
-              , a web developer and UI/UX designer with a passion for creating
+               a web developer and UI/UX designer with a passion for creating
               beautiful, functional, and user-centered digital experiences. With
               4 years of experience in the field. I am always looking for new
               and innovative ways to bring my clents visions to life.

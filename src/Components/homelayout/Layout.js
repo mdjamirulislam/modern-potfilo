@@ -1,9 +1,8 @@
 import Image from "next/image";
-import images from "../../../public/image/mak.webp";
-import {motion} from "framer-motion"
 import Link from "next/link";
-import Animationtext from "../Healper/Animationtext/Animationtext";
 import { BiCartDownload } from "react-icons/bi";
+import images from "../../../public/image/mak.webp";
+import Animationtext from "../Healper/Animationtext/Animationtext";
 const Layout = () => {
   return (
     <div className="w-full overflow-hidden h-screen flex justify-between">
@@ -13,7 +12,7 @@ const Layout = () => {
         <div className="fixed left-9 bottom-14">
           <Link href="https://www.facebook.com">
             <h1
-              className="w-20 font-semibold h-20 text-white flex justify-center rounded-full bg-[#1b1b1b]  items-center  hover:bg-inherit hover:border-black hover:text-black hover:border hover:cursor-pointer"
+              className="w-20 font-semibold h-20 text-light flex justify-center rounded-full dark:bg-dark dark:text-light bg-[#1b1b1b]  items-center dark:border-light dark:border-2  hover:bg-inherit hover:border-light hover:text-black hover:border hover:cursor-pointer"
               whileHover={{
                 backgroundColor: [
                   "#121212",
@@ -36,11 +35,12 @@ const Layout = () => {
         </div>
       </div>
       {/* al text */}
-      <div className="w-[50%] py-10">
+      <div className="w-[50%] py-10 dark:text-light">
         <div className="">
           <Animationtext
-          className="text-7xl font-bold w-full text-left flex justify-start items-start"
-          text="Turning Vision Into Reality With Code And Design."/>
+            className="text-7xl font-bold w-full text-left flex justify-start items-start"
+            text="Turning Vision Into Reality With Code And Design."
+          />
           <p className="text-lg mb-5">
             As a skilled full-website application developer, I am dedicated to
             turning ideas into innovative web applications. Explore my latest
