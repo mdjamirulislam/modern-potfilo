@@ -85,7 +85,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.8 }}
           className="text-3xl text-[#1C9CEA]"
         >
-          {" "}
+          {"this is dark mode taggle btn "}
           <Darkmodebtn />
         </motion.h1>
       </nav>
