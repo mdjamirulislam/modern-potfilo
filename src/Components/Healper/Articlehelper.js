@@ -31,7 +31,7 @@ const Article = ({
             />
           </div>
           <div className="flex w-full  flex-col py-2 px-4">
-            <Link href="./" className="hover:underline">
+            <Link href="https://format-ecommerce-website.vercel.app" target="_blank" className="hover:underline">
               <h1 className="text-dark dark:text-light text-2xl font-semibold">
                 {heading}
               </h1>
@@ -41,7 +41,7 @@ const Article = ({
 
             <div className="flex gap-5 justify-between  items-center">
               <Link
-                href="./"
+                href="https://www.github.com/mdjamirulislam"
                 className=" text-dark dark:text-light hover:underline  text-xl font-semibold capitalize"
               >
                 {link}
@@ -67,7 +67,7 @@ const Article = ({
             />
           </div>
           <div className="flex w-full  flex-col py-2 px-4">
-            <Link href="./" className="hover:underline">
+            <Link href="https://format-ecommerce-website.vercel.app" target="_blank" className="hover:underline">
               <h1 className="text-dark dark:text-light text-2xl font-semibold">
                 {heading}
               </h1>
@@ -77,7 +77,7 @@ const Article = ({
 
             <div className="flex gap-5 justify-between  items-center">
               <Link
-                href="./"
+              href="https://www.github.com/mdjamirulislam"
                 className=" text-dark dark:text-light hover:underline  text-xl font-semibold capitalize"
               >
                 {link}

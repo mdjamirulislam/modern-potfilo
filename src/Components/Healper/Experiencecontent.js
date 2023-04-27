@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-const Experiencecontent = ({ heading, link, slink, ptag }) => {
+const Experiencecontent = ({ heading,ulink, link, slink, ptag }) => {
   return (
     <motion.div
       className="w-full dark:text-light mx-auto py-5"
@@ -13,7 +13,7 @@ const Experiencecontent = ({ heading, link, slink, ptag }) => {
     >
       <h1 className="text-2xl font-bold flex gap-5">
         {heading}
-        <a href="./" className="text-[#B63E96] dark:text-primaryDark">
+        <a href={ulink} className="text-[#B63E96] dark:text-primaryDark">
           {link}
         </a>
       </h1>

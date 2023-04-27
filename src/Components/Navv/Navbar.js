@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <nav className="md:flex  hidden  gap-6  ">
         <motion.a
-          href="./"
+          href="https://www.facebook.com/profile.php?id=100026912299671"
           whileHover={{ y: 4 }}
           whileTap={{ scale: 0.8 }}
           className="text-3xl text-[#007DC3]"
@@ -45,7 +45,7 @@ const Navbar = () => {
           <BsFacebook />
         </motion.a>
         <motion.a
-          href="./"
+          href="https://github.com/mdjamirulislam"
           whileHover={{ y: 4 }}
           whileTap={{ scale: 0.8 }}
           className="text-3xl dark:text-light text-[#2A2F35]"
@@ -54,7 +54,7 @@ const Navbar = () => {
           <BsGithub />
         </motion.a>
         <motion.a
-          href="./"
+          href="https://www.youtube.com"
           whileHover={{ y: 4 }}
           whileTap={{ scale: 0.8 }}
           className="text-3xl  text-[#FF0000]"
@@ -63,7 +63,7 @@ const Navbar = () => {
           <AiFillYoutube />
         </motion.a>
         <motion.a
-          href="./"
+          href="https://www.linkedin.com/in/md-jamirul-4169a423b/"
           whileHover={{ y: 4 }}
           whileTap={{ scale: 0.8 }}
           className="text-3xl   text-[#0F66B4]"
@@ -72,7 +72,7 @@ const Navbar = () => {
           <AiFillLinkedin />
         </motion.a>
         <motion.a
-          href="./"
+          href="https://join.skype.com/invite/xk6g715bzqi3"
           whileHover={{ y: 4 }}
           whileTap={{ scale: 0.8 }}
           className="text-3xl text-[#1C9CEA]"

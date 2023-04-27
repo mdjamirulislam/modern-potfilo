@@ -27,6 +27,7 @@ const Experience = () => {
 
         <Experiencecontent
           heading="Software Engineer"
+          ulink="https://google.com"
           link="@Google"
           slink="2022-Present | Mountain View, CA"
           ptag="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
@@ -34,24 +35,28 @@ const Experience = () => {
 
         <Experiencecontent
           heading="Intern"
+          ulink="https://www.facebook.com/profile.php?id=100026912299671"
           link="@Facebook"
           slink="Summer 2021 | Menlo Park, CA."
           ptag="Worked on a team responsible for developing a new mobile app feature that allowed users to create and share short-form video content, including designing and implementing a new user interface and developing the backend infrastructure to support the feature."
         />
         <Experiencecontent
           heading="Sofware Developer"
+          ulink="https://github.com/mdjamirulislam"
           link="@Amazon"
           slink="2020-2021 | Seattle, WA."
           ptag="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
         />
         <Experiencecontent
           heading="Sofware Developer Intern"
+          ulink="https://www.mdjamirul802@gmail.com"
           link="@Microsoft"
           slink="Summer 2019 | Redmond, WA."
           ptag="Worked on a team responsible for developing new features for Microsoft's Windows operating system, including implementing a new user interface for a system settings panel and optimizing the performance of a core system component."
         />
         <Experiencecontent
           heading="Teaching Assistant "
+          ulink="https://www.google.com"
           link="@MIT"
           slink="Summer 2019 | Redmond, WA."
           ptag="Fall 2018 | Massachusetts Ave, Cambridge, MA.
