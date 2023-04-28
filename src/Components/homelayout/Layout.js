@@ -49,7 +49,7 @@ const Layout = () => {
           </p>
 
           <div className="flex gap-6">
-            <button className="  px-4 py-2 bg-black text-white font-bold rounded-md shadow-md hover:bg-inherit hover:text-black border-black border-2 ">
+            <button className="  px-4 py-2  bg-dark text-light font-bold rounded-md shadow-md hover:bg-inherit hover:text-darj border-dark border-2 ">
               <a
                 href="./"
                 download
