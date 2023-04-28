@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Any from  "../Any"
 import { BiCartDownload } from "react-icons/bi";
 import images from "../../../public/image/mak.webp";
 import Animationtext from "../Healper/Animationtext/Animationtext";
